@@ -81,3 +81,69 @@ body {
     color: #9C9C9C;
     text-decoration: line-through;
 }
+
+
+@media screen and (max-width: 800px){
+    .top_img{
+        width: 173px;
+    }
+    .bottom_img{
+        width: 200px;
+    }
+    .input {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .top_img{
+        bottom: 0;
+    }
+    .title{
+        font-size: 60px;
+    }
+    .input{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .top_img{
+        width: 150px;
+    }
+    .bottom_img{
+        width: 160px;
+    }
+    .input{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .title {
+        font-size: 50px;
+    }
+    .input {
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .input_btn {
+        padding: 5px 12px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .top_img{
+        width: 110px;
+    }
+    .bottom_img{
+        width: 110px;
+    }
+    .input {
+        width: 160px;
+    }
+}
