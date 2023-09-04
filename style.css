@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #142611;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    background: radial-gradient(246.59% 98.71% at 0.79% 50.06%, #F1FFE2 0%, #E6F9D4 0.01%, rgba(189, 252, 126, 0.80) 100%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    position: relative;
+}
+.top_img{
+    position: absolute;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.title {
+    font-family: 'Darumadrop One', cursive;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.input {
+    width: 600px;
+    height: 60px;
+    border-radius: 17px;
+    border: 3px solid #93C173;
+    background: #FFF;
+    color: #142611;
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    outline:none; 
+}
+
+.input_btn {
+    padding: 7px 19px;
+    border-radius: 17px;
+    border: 3px solid #93C173;
+    background: #FFF;
+    color: #142611;
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.input_btn:hover{
+    background:#93C173;
+    color: #FFF;
+}
+
+.bottom_img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.to_do_list {
+    list-style: none;
+}
+.list__have_to_do {
+    margin-bottom: 20px;
+}
