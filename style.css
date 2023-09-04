@@ -77,3 +77,7 @@ body {
 .list__have_to_do {
     margin-bottom: 20px;
 }
+.list__done {
+    color: #9C9C9C;
+    text-decoration: line-through;
+}
